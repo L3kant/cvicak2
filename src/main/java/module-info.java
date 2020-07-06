@@ -3,6 +3,6 @@ module cz.staffspirit.cvicak2 {
     requires javafx.fxml;
     requires java.base;
 
-    opens cz.staffspirit.cvicak2 to javafx.fxml;
+    opens cz.staffspirit.cvicak2.controllers to javafx.fxml;
     exports cz.staffspirit.cvicak2;
 }
